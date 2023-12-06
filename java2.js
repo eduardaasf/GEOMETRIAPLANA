@@ -1,9 +1,9 @@
 function calcularArea(form) {
       //
-      const lado = form.querySelector("input[name='lado']").value;
-      const base = form.querySelector("input[name='base']").value;
-      const altura = form.querySelector("input[name='altura']").value;
-      const raio = form.querySelector("input[name='raio']").value;
+      const lado = document.querySelector("#lado").value;
+      const lado = document.querySelector("#base").value;
+     const lado = document.querySelector("#altura").value;
+      const lado = document.querySelector("#raio").value;
 
       //
       if (form.id === "quadrado") {
