@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Figuras geométricas</title>
+  <link rel="stylesheet" href="css3.css">
+  <script src="java2.js"></script>
+</head>
+<body>
+  <h1>Figuras geométricas</h1>
+  <h3><a href="index.html">Home</a></h3>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Figura</th>
+        <th>Imagem</th>
+        <th>Fórmula</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Quadrado</td>
+        <td><img src="img/quadrado.png" alt="Quadrado"></td>
+        <td>A = b * b</td>
+      </tr>
+      <tr>
+        <td>Retângulo</td>
+        <td><img src="img/retangulo.png" alt="Retângulo"></td>
+        <td>A = b * h</td>
+      </tr>
+      <tr>
+        <td>Círculo</td>
+        <td><img src="img/circulo.png" alt="Círculo"></td>
+        <td>A = π * r²</td>
+      </tr>
+      <tr>
+        <td>Triângulo</td>
+        <td><img src="img/triangulo.png" alt="Triângulo"></td>
+        <td>A = (b * h) / 2</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h1>Cálculo de áreas</h1>
+
+  <section id="quadrado">
+    <h2>Quadrado</h2>
+
+    <form action="#">
+      <input type="text" placeholder="Lado" required>
+      <button type="button" onclick="function calcularArea(form)">Calcular</button>
+    </form>
+  </section>
+
+  <section id="retangulo">
+    <h2>Retângulo</h2>
+
+    <form action="#">
+      <input type="text" placeholder="Base" required>
+      <input type="text" placeholder="Altura" required>
+      <button type="button" onclick="function calcularArea(form)">Calcular</button>
+    </form>
+  </section>
+
+  <section id="circulo">
+    <h2>Círculo</h2>
+
+    <form action="#">
+      <input type="text" placeholder="Raio" required>
+      <button type="button" onclick="function calcularArea(form)">Calcular</button>
+    </form>
+  </section>
+
+</body>
+</html>
